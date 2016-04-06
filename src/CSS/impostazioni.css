@@ -1,0 +1,57 @@
+p
+{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pImpostazioni
+{
+	width: 500px;
+	position: relative;
+	bottom: 30px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.pImpostazioniPulsanti
+{
+	font-size: 21px;
+}
+
+#pInputTempo
+{
+	position: relative;
+	bottom: 20px;
+}
+
+#pInputParola
+{
+	position: relative;
+	bottom: 50px;
+}
+
+#pLingua
+{
+	position: relative;
+	bottom: 80px;
+}
+
+.spanNomeOpt
+{
+	font-size: 25px;
+	color: orange;
+}
+
+.spanOpt
+{
+	font-size: 18px;
+	cursor: default;
+}
+
+.pBottone
+{
+	width: 150px;
+	position: relative;
+	bottom: 90px;
+}

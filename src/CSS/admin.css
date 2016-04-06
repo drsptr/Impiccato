@@ -1,0 +1,43 @@
+p
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pDescrizione
+{
+	width: 500px;
+	position: relative;
+	bottom: 30px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+#divForm
+{
+	position: relative;
+	bottom: 20px;
+}
+
+#divForm p
+{
+	width: 320px;
+}
+
+#divForm label
+{
+	color: orange;
+	position: relative;
+	bottom: 6px;
+}
+
+#divForm input
+{
+	position: absolute;
+	right: 190px;
+}
+
+#divForm .pBottone
+{
+	width: 150px;
+}

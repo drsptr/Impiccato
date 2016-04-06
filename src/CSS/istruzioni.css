@@ -1,0 +1,18 @@
+#pIstruzioni
+{
+	height: 300px;
+	width: 500px;
+	position: relative;
+	bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.pBottone
+{
+	width: 150px;
+	position: relative;
+	bottom: 45px;
+}

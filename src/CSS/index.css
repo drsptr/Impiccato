@@ -1,0 +1,12 @@
+.pBottone
+{
+	font-size: 40px;
+	width: 300px;
+	position: relative;
+	top: 50px;
+}
+
+li
+{
+	list-style-type: none;
+}

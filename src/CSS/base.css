@@ -1,0 +1,107 @@
+body
+{ 
+	background-image: url("../img/background.png");
+}
+
+img
+{
+	border: none;	/*IE*/
+}
+
+#spanLang
+{
+	height: 20px;
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
+
+#spanLang:hover
+{
+	position: absolute;
+	top: 25px;
+	right: 45px;
+}
+
+.imgLang
+{
+	height: 20px;
+	width: 20px;
+}
+
+.imgLang:hover
+{
+	height: 30px;
+	width: 30px;
+}
+
+#imgLogo
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*	CSS3:
+ 	 -	la proprietà "@font-face" permette di definire ed	
+		utilizzare font non standard all' interno di una 	
+		pagina web.										
+		http://www.w3.org/TR/css3-fonts/#font-face-rule
+*/
+@font-face
+{
+	font-family: pastelFF;
+	src: url("../fonts/pastel_crayon.ttf");		/* Firefox */
+}
+
+@font-face
+{
+	font-family: pastelIE;
+	src: url("../fonts/pastel_crayon.eot");		/* IE	   */
+}
+
+#divLavagna
+{
+	font-family: pastelFF,pastelIE,Verdana,sans-serif;
+	font-size: 30px;
+	width: 658px;
+	position: relative;
+	top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.pBottone
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-width: 5px;
+	border-color: orange;
+	border-style: dotted none dotted none;
+}
+
+.pBottone a
+{
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.pBottone a:hover
+{
+	color: silver;
+}
+
+h1
+{
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.hiddenP
+{
+	display: none;
+}

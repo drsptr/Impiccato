@@ -1,0 +1,118 @@
+h1
+{
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#pContenutoParola
+{
+	width: 450px;
+	height: 60px;
+	position: relative;
+	bottom: 25px;
+	left: 40px;
+	font-size: 24px;
+	letter-spacing: 2px;
+	word-spacing: 7px;
+	overflow: auto;
+}
+
+#imgMovimenti
+{
+	width: 133px;
+	height: 200px;
+	float: right;
+	position: relative;
+	right: 30px;
+	bottom: 190px;
+}
+
+#pContenutoOpt
+{
+	width: 450px;
+	height: 100px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	bottom: 30px;
+	left: 40px;
+}
+
+.spanContenutoEsterno
+{
+	font-size: 18px;
+	color: orange;
+	display: block;
+}
+
+.spanContenutoEsterno span
+{
+	font-size: 30px;
+	color: white;
+}
+
+#pLettere
+{
+	width: 600px;
+	position: relative;
+	bottom: 70px;
+	left: 30px;
+	text-align: center;
+	margin-left: auto;
+	text-align: justify;
+	font-size: 38px;
+}
+
+#pLettere a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#pLettere a:hover
+{
+	color: silver;
+}
+
+.pBottone
+{
+	width: 150px;
+	position: relative;
+	bottom: 70px;
+}
+
+#msgFinale
+{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom: 25px;
+	text-align: center;
+	display: none;
+}
+
+#msgFinale span
+{
+	text-align: center;
+	display: block;
+}
+
+#msgFinale a
+{
+	color: white;
+	text-decoration: none;
+	border-style: dotted none dotted none;
+	border-width: 5px;
+	border-color: orange;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	top: 5px;
+}
+
+#msgFinale a:hover
+{
+	color: silver;
+}
